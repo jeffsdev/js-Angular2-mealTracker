@@ -1,5 +1,5 @@
-h1 {
-  color: #256;
+* {
+  box-sizing: border-box;
 }
 
 .mealDetails {
@@ -8,4 +8,19 @@ h1 {
 
 .showDetails {
   display: block;
+}
+
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  @media screen and(min-width: 768px) {
+    background: none;
+  }
+}
+
+
+body {
+  background: url('../../resources/img/steak.tif') no-repeat center center fixed;
+  background-size: cover;
+
 }

@@ -1,0 +1,42 @@
+header {
+  display: flex;
+
+  background: rgba(0, 0, 0, 0.6);
+  height: 25%;
+  align-items: center;
+  justify-content: center;
+  .h-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+  .bn {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('../../resources/img/banana.gif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    @media screen and (min-width: 640px) {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  .titles {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  h1 {
+    color: #acd;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h3 {
+    color: #acd;
+    margin: 20px auto 0 auto;
+    padding: 0;
+  }
+}

@@ -6,10 +6,11 @@ import {Meal} from './meal.model';
   outputs: ['onSubmitNewMeal'],
   template: `
     <div class="meal-form">
-      <h3>New Meal</h3>
-      <input placeholder="Add a meal item" #newItem>
-      <input placeholder="Add Description" #newDescription>
-      <input placeholder="Calories" #newCalories>
+      <h3>Add A New Meal To Track</h3>
+
+        <input placeholder="Add a meal item" #newItem>
+        <input placeholder="Add Description" #newDescription>
+        <input placeholder="Calories" type="number" #newCalories>
 
       <button (click)="addMeal(newItem, newDescription, newCalories)">Add Meal</button>
     </div>

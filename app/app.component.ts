@@ -6,10 +6,20 @@ import { Meal } from './meal.model';
   selector: 'my-app',
   directives: [MealListComponent],
   template: `
-    <h1>OmNomNom MealTrakr</h1>
-    <meal-list
-      [mealList]="meals">
-    </meal-list>
+    <div class="container">
+      <header>
+        <div class="h-container">
+          <div class="bn"></div>
+          <div class="titles">
+            <h1>OmNomNom</h1>
+            <h3>Meal Tracker</h3>
+          </div>
+        </div>
+      </header>
+      <meal-list
+        [mealList]="meals">
+      </meal-list>
+    </div>
   `
 })
 
