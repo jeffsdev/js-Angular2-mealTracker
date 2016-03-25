@@ -27,9 +27,9 @@ export class AppComponent {
   public meals: Meal[];
   constructor() {
     this.meals = [
+      new Meal("Coffee", "Dirty Chai from Fresh Pot. This counts as a meal, right?", 250),
       new Meal("Pizza", "3 slices of pizza from Sizzle Pie", 450),
-      new Meal("Salad", "Organic kale salad", 150),
-      new Meal("Coffee", "This counts as a meal, right?", 100)
+      new Meal("Salad", "Organic kale salad from that one food cart", 150)
     ];
   }
 }

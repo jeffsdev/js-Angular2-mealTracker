@@ -1,18 +1,22 @@
 # Angular 2 Meal Tracker
+#### Week 2 - JavaScript code review for Epicodus  
+##### By Jeff Seymour
 
 ## Description
-##### Meal Tracker. JS Code Review 2
+##### Angular 2 Meal Tracker app. A web app where the user can enter information about their meals to keep track of what they ate.
 
-## Setup/Installation
+## Technologies Used
+Angular 2, JavaScript, TypeScript, Gulp, Bower, HTML, SASS/SCSS,
 
-- clone repo
-- npm install
-- bower install
-- install globals if needed (gulp, bower, sass, typescript, typescript packages.)
-  - npm install gulp -g
-  - npm install bower -g
-  - gem install sass
-  - npm install typescript -g
-  - apm install atom-typescript
-- gulp build
-- gulp serve
+## Setup/Installation  
+* Clone this repository.
+* In your terminal, run `$npm install`.
+* In your terminal, run `$bower install`.
+* In your terminal, run `$gulp build`.
+* In your terminal, run `$gulp serve`.
+* View in browser.
+
+## License
+Copyright (c) 2016 Jeff Seymour
+
+This software is licensed under the MIT license.
