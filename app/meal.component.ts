@@ -11,8 +11,8 @@ import { EditMealDetailsComponent } from './edit-meal-details.component';
       <div class="mealInfo">
         <h3 (click)="showDetails()">{{ meal.name }}</h3>
         <div class="mealDetails" [class.showDetails]="details">
-          <p>Description: {{ meal.description }}</p>
-          <p>Calories: {{ meal.calories }}</p>
+          <p>Description: <span>{{ meal.description }}</span></p>
+          <p>Calories: <span>{{ meal.calories }}</span></p>
           <button (click)="editInfo(meal)">Edit Meal</button>
           <edit-meal-details *ngIf="show" [meal]="selectedMeal"></edit-meal-details>
         </div>

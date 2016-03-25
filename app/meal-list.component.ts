@@ -14,7 +14,7 @@ import { HealthyPipe } from './healthy.pipe';
   template: `
     <new-meal (onSubmitNewMeal)="createMeal($event)"></new-meal>
     <div class="meals">
-      <h2>Meals You've Nom'd</h2>
+      <h1>Meals You've Nom'd Today</h1>
       <select (change)="onChange($event.target.value)" class="filter">
         <option value="all">All Meals</option>
         <option value="healthy">Healthy Meals (under 300 calories)</option>

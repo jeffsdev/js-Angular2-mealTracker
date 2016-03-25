@@ -8,9 +8,9 @@ import {Meal} from './meal.model';
     <div class="meal-form">
       <h2>Add A New Meal To Track</h2>
 
-        <input placeholder="Add a meal item" #newItem>
+        <input placeholder="Add A Meal Item" #newItem>
         <input placeholder="Add Description" #newDescription>
-        <input placeholder="Calories" type="number" #newCalories>
+        <input placeholder="How Many Calories?" type="number" #newCalories>
 
       <button (click)="addMeal(newItem, newDescription, newCalories)">Add Meal</button>
     </div>
