@@ -11,7 +11,7 @@ import { Meal } from './meal.model';
         <div class="h-container">
           <div class="bn"></div>
           <div class="titles">
-            <h1>OmNomNom</h1>
+            <h1>OmNomNom!</h1>
             <h3>Meal Tracker</h3>
           </div>
         </div>

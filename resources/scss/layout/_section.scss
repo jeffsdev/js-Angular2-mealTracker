@@ -30,7 +30,8 @@ new-meal {
   color: #ccc;
   h2 {
     text-align: center;
-  text-shadow: 3px 2px 3px black;
+    color: #acd;
+    text-shadow: 3px 2px 3px black;
   }
   select {
     display: block;
@@ -53,7 +54,7 @@ new-meal {
   cursor: pointer;
   font-size: 1.3rem;
   &:hover {
-    color: #acd;
+    color: #9cf;
   }
   .mealDetails {
     padding: 20px;

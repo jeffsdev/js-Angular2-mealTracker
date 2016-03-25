@@ -3,10 +3,16 @@ button {
   height: 50px;
   margin: 50px auto 0 auto;
   background: none;
-  border: 2px solid #999;
-  color: #999;
+  border: 2px solid #bbb;
+  color: #ddd;
   font-size: 1.3rem;
   outline: none;
+  transition: 500ms;
+  &:hover {
+    border-color: #8fa;
+    color: #8fa;
+    transition: 500ms;
+  }
 }
 
 .mealDetails {

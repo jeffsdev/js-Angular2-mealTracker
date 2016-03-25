@@ -5,8 +5,8 @@
   padding: 50px 0;
   justify-content: center;
   max-width: 640px;
-  
-  h3 {
+
+  h2 {
     flex: 1 100%;
     margin-top: 0;
     text-align: center;
@@ -17,16 +17,19 @@
     height: 50px;
     width: 75%;
     text-align: center;
-    font-size: 1.17rem;
-    color: #ccc;
+    font-size: 1.3rem;
+    color: #ddd;
     background: none;
     border: none;
     border-bottom: 3px solid #69c;
     outline: none;
     text-shadow: 3px 0px 3px black;
+    &:focus {
+      border-color: #8fa;
+    }
   }
   @media screen and(min-width: 768px) {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
   }
 
 }
