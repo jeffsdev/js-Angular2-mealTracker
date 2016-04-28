@@ -3,7 +3,7 @@
 ##### By Jeff Seymour
 
 ## Description
-##### A Meal Tracker app where the user can enter information about their meals to keep track of what they ate. Built with Angular 2.
+##### A Meal Tracker app where the user can enter information about their meals to keep track of what they ate during a day, with some details about the meal including calories. Built with Angular 2. 
 
 ## Technologies Used
 Angular 2, JavaScript, TypeScript, Gulp, Bower, HTML, SASS/SCSS,
