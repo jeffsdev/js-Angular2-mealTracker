@@ -1,9 +1,9 @@
 # Angular 2 Meal Tracker
-#### Week 2 - JavaScript code review for Epicodus  
+#### Week 2 - JavaScript code review for Epicodus
 ##### By Jeff Seymour
 
 ## Description
-##### Angular 2 Meal Tracker app. A web app where the user can enter information about their meals to keep track of what they ate.
+##### A Meal Tracker app where the user can enter information about their meals to keep track of what they ate. Built with Angular 2.
 
 ## Technologies Used
 Angular 2, JavaScript, TypeScript, Gulp, Bower, HTML, SASS/SCSS,
